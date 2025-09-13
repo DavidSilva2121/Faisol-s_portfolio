@@ -96,6 +96,9 @@ CALCULATE(
     NOT(ISBLANK(CovidDeaths[continent]))
 )
 ``
+## 📂 Project Files
+📊 [Covid.pbix](./Covid.pbix) — Power BI dashboard file (open with Power BI Desktop)  
+📄 [Covid.pdf](./Covid.pdf) — Exported PDF snapshot of the dashboard
 
 
 
