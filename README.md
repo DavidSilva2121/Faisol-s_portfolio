@@ -1,9 +1,9 @@
 # Faisol-s_portfolio 
- Project 1: 🎵 Spotify Streaming History – Power BI Dashboard
+** Project 1: 🎵 Spotify Streaming History – Power BI Dashboard
  **Overview**
 This project explores a User's personal Spotify streaming history and visualizes insights through an interactive Power BI dashboard.  
 The dashboard integrates Spotify artist images and album covers with slicers, giving a visually rich and dynamic exploration of listening habits.
-
+**
 ## ⚙️ Data Pipeline
 Data Source:  
    Exported streaming history from Spotify (Spotify_history.xlsx) through Maven Analytics.
