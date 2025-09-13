@@ -78,10 +78,13 @@ Key measures created:
 dax
 -Mortality / Death Rate
 Death Rate = DIVIDE(SUM(CovidDeaths[total_deaths]), SUM(CovidDeaths[total_cases]))
+
 -- Vaccination Rate (at least 1 dose)
 Vaccination Rate = DIVIDE(SUM(CovidVaccinations[people_vaccinated]), SUM(CovidDeaths[population]))
+
 -- Fully Vaccinated Rate
 Fully Vaccinated Rate = DIVIDE(SUM(CovidVaccinations[people_fully_vaccinated]), SUM(CovidDeaths[population]))
+
 -- Average Daily Deaths
 Average Daily Deaths = 
 AVERAGEX(
