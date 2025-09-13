@@ -33,6 +33,10 @@ Power BI Dashboard:
 - Spotify Web API → images & metadata  
 - GitHub → version control & project sharing  
 
+## 📥 Files
+
+- [Download Dashboard (.pbix)]SPOTIFY X.pbix
+- [View Dashboard PDF](Spotify_PowerBI.pdf)
  
 
 
