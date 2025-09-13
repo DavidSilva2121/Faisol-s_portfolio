@@ -35,9 +35,8 @@ Power BI Dashboard:
 
 ## 📥 Files
 
-- [Download Dashboard (.pbix)](Spotify_PowerBI.pbix)
-- [View Dashboard PDF](Spotify_PowerBI.pdf)
- 
+- [Download Dashboard (.pbix)](SPOTIFY%20X.pbix)
+- [View Dashboard PDF](SPOTIFY%20X.pdf)
 
 
 ## 🚀 How to Use
