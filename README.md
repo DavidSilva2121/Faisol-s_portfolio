@@ -76,23 +76,23 @@ The dashboard provides interactive insights across continents and countries, wit
 ## 🧮 DAX Measures
 Key measures created:
 dax
--Mortality / Death Rate
+
 Death Rate = DIVIDE(SUM(CovidDeaths[total_deaths]), SUM(CovidDeaths[total_cases]))
 
--- Vaccination Rate (at least 1 dose)
+
 Vaccination Rate = DIVIDE(SUM(CovidVaccinations[people_vaccinated]), SUM(CovidDeaths[population]))
 
--- Fully Vaccinated Rate
+
 Fully Vaccinated Rate = DIVIDE(SUM(CovidVaccinations[people_fully_vaccinated]), SUM(CovidDeaths[population]))
 
--- Average Daily Deaths
+
 Average Daily Deaths = 
 AVERAGEX(
     FILTER(CovidDeaths, NOT(ISBLANK(CovidDeaths[new_deaths]))),
     CovidDeaths[new_deaths]
 )
 
--- Total New Cases (Continent not blank)
+
 Total New Cases (Valid Continent) = 
 CALCULATE(
     SUM(CovidDeaths[new_cases]),
